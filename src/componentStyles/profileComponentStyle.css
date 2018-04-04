@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  background-color: #080808;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #080808;
+  height: 100%;
+  max-height: 1500px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  text-decoration: none !important;
+  font-size: 2.5em;
+  color: #FFFAFF;
+  margin: 20% auto 1%;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 600px;
+}
+
+.App-title:visited {
+  color: #FFFAFF;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#blue-hr {
+  max-width: 350px;
+  height: .2px;
+  background-color: blue;
+}
+
+.title-Name {
+  color: #FFFAFF;
+  text-align: center;
+  text-decoration: none !important;
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+.title-Name:hover {
+    transition: all 280ms linear;
+    opacity: .75;
+  }
+
+.title-Name:active {
+  transition: all 150ms linear;
+  opacity: .75;
+}
+
+.bGround {
+  background: white;
+  color: black;
+}
+
+.heady-Icon {
+  color: #F5A65B;
+  opacity: .85;
+}
+
+.iconDiv {
+  max-width: 250px;
+  margin: 2% auto 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.heady-Icon:hover {
+    transition: all 440ms linear;
+    opacity: 1;
+}
